@@ -1,7 +1,10 @@
 .element {
-  width: 282px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 280px;
+  margin: 0;
   overflow: hidden;
   border-radius: 10px;
-  background: linear-gradient(to top, #ccc 0%, #f6f6f6 75%, #fff 100%);
+  background-color: white;
 }

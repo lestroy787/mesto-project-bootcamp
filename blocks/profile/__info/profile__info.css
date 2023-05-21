@@ -1,13 +1,9 @@
 .profile__info {
   display: flex;
   flex-wrap: wrap;
-  max-width: calc((100vw - 320px) / (960) * (480 - 285) + 285px);
-}
-
-@media screen and (min-width: 1280px) {
-  .profile__info {
-    max-width: 480px;
-  }
+  max-width: 480px;
+  gap: 16px 18px;
+  align-items: baseline;
 }
 
 @media screen and (max-width: 1023px) {

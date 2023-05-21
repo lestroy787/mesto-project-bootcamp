@@ -1,18 +1,13 @@
 .profile {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: calc((100vw - 320px) / (960) * (880 - 320) + 320px);
-  margin: calc((100vw - 320px) / (960) * (-2) + 42px) auto 0;
+  margin: 0;
+  margin-bottom: 47px;
+  padding: 0;
 }
 
-@media screen and (min-width: 1280px) {
-  .profile {
-    width: 880px;
-    margin: 40px auto 0;
-  }
-}
-
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .profile {
     flex-direction: column;
   }

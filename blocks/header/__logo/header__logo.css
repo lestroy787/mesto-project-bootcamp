@@ -1,11 +1,12 @@
 .header__logo {
-  width: calc((100vw - 320px) / (960) * (142 - 103.7) + 103.7px);
-  padding-left: calc((100vw - 320px) / (960) * (-27) + 27px);
+  width: 142px;
+  height: 33px;
+  padding: 0;
+  margin: 0;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 768px) {
   .header__logo {
-    width: 142px;
-    padding-left: 0;
+    margin-left: 17px;
   }
 }
