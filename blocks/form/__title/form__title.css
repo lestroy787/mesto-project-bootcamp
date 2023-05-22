@@ -9,9 +9,8 @@
 
 @media screen and (max-width: 768px) {
   .form__title {
-    margin: 0;
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 57px;
   }
 }
