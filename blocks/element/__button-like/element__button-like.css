@@ -4,17 +4,8 @@
   height: 22px;
   outline: none;
   border: none;
-  background: transparent url(../../../images/button-like-disabled.svg);
+  background: url(../../../images/button-like-disabled.svg);
   background-repeat: no-repeat;
+  color: black;
   transition: all .2s ease;
-}
-
-.element__button-like:hover {
-  opacity: .5;
-  cursor: pointer;
-}
-
-.element__button-like:active {
-  opacity: 1;
-  background-image: url(../../../images/button-like-active.svg);
 }
